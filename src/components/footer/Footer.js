@@ -24,6 +24,7 @@ const Footer = () => (
                 />)
             }
         </div>
+        <p>© fergusfrl | {new Date().getFullYear()}</p>
     </footer>
 );
 
