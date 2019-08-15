@@ -1,0 +1,61 @@
+$fergOrange: #fe5000;
+$lightGrey: #68777d;
+
+.text {
+    height: 20vw;
+    background-color: $lightGrey;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container {
+    height: 20vw;
+    color: white;
+    //-webkit-text-stroke: 1px black;
+}
+
+.hovered {
+    height: 20vw;
+    background-color: $fergOrange;
+    color: white;
+
+    p {
+        font-family: Work Sans,sans-serif;
+    }
+
+    .more-information {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 1em;
+        border-bottom: 2px solid white;
+    }
+}
+
+.image {
+    height: 100%; width: 100%;
+}
+
+.project-thumbnail {
+    position: relative;
+    height: 20vw;
+    background-color: $lightGrey;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 0;
+    border: none;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease; 
+}
+
+.project-thumbnail:hover {
+    color: white;
+    text-decoration: none;
+    background-color: $fergOrange;
+}
+
+.teaser-thumbnail {
+    color: white;
+    height: 20vw;
+    background-color: $lightGrey;
+}

@@ -1,0 +1,39 @@
+$fergOrange: #fe5000;
+
+.navbar {
+    .navbar-brand {
+        color: $fergOrange !important;
+    }
+
+    .nav-item {
+        .active {
+            color: $fergOrange !important;
+        }
+
+        .nav-link:hover {
+            color: $fergOrange !important;
+        }
+
+        .nav-link {
+            position: relative;
+        }
+          
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0; height: 2px;
+            display: block;
+            margin-top: 5px;
+            right: 0;
+            background: $fergOrange;
+            transition: width .3s ease;
+            -webkit-transition: width .3s ease;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+            left: 0;
+            background: $fergOrange;
+        }
+    }
+}

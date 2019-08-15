@@ -1,0 +1,22 @@
+@import "../layout.scss";
+
+.intro {
+    margin-bottom: 12vh;
+
+    h2 {
+        font-size: 3em;
+        font-weight: 600;
+        font-family: sans-serif;
+    
+        span {
+            color: $fergOrange;
+        }
+    }
+    
+    .quotation {
+        font-family: $workSans;
+        font-size: 1.5em;
+        font-style: italic;
+        color: $lightGrey;
+    }
+}

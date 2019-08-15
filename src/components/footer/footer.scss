@@ -1,0 +1,28 @@
+@import '../layout.scss';
+
+footer {
+    color: white;
+    height: 200px;
+    background-color: $fergOrange;
+
+    p {
+        text-align: center;
+        font-family: $workSans;
+        font-size: 1.5em;
+        padding-top: 1.5em;
+    }
+
+    .sm-bubbles {
+        //width: 100vw;
+        text-align: center;
+
+        button {
+            color: $fergOrange;
+            height: 50px;
+            width: 50px;
+            border: none;
+            border-radius: 50%;
+            margin: 0 .3em;
+        }
+    }
+}
